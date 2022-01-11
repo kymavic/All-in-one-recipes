@@ -45,7 +45,7 @@ body, html {
     color: rgb(48, 12, 12);
     letter-spacing: 1px;
     margin: 1px 25px;
-   
+
 }
 
 
@@ -112,8 +112,13 @@ body, html {
 
 /*Section News*/
 .news {
-    background-color: whitesmoke;
-    padding: 2px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+   /* background-color: whitesmoke;
+    padding: 2px 2px;*/
 }
 
 .news h1 {
@@ -130,7 +135,7 @@ body, html {
     columns: 200px 3;
     margin: 1em auto;
     padding: 1em;
-    background-color: skyblue;
+    /* background-color: skyblue;*/
 }
 
 
@@ -143,7 +148,7 @@ body, html {
 .recipes-cards {
     /*background-color: springgreen;
     padding-bottom: 2rem;*/
-    text-align:justify;
+    text-align: justify;
 
 }
 
@@ -174,13 +179,96 @@ body, html {
     padding-bottom: 20px;
 }
 
+/*section Review*/
+.Review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Review h1 {
+    font-size: 3rem;
+    color: rgb(32, 10, 10);
+    margin-bottom: 2px;
+    padding: 15px 30px;
+}
+
+.container-review {
+    columns: 200px 2;
+    margin: 1em auto;
+    padding: 1em;
+    /*background-color: skyblue;*/
+}
+
+.container-review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.review-box {
+    width: 500px;
+    box-shadow: 2px 2px 30px rgba(26, 25, 25, 0.1);
+    background-color: rgb(209, 220, 226);
+    padding: 20px;
+    cursor: pointer;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.box-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.name-user {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-user strong {
+    columns: #3d3d3d;
+    letter-spacing: 0.5px;
+}
+
+.name-user span {
+    color: #979797;
+    font-size: 0.8rem;
+}
+
+.client-comment p{
+    font-size: 0.96rem;
+
+}
 
 
-
-
-
-
-
+/*footer*/
 footer {
     /* position: fixed;
     left: 0;
@@ -276,6 +364,7 @@ footer p {
     .container-news {
         columns: 200px 1;
     }
+   
 }
 
 
