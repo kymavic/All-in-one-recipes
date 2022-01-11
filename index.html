@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All in One Recipes</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+     <!-- start of Nav -->
+     <nav class="navbar">
+        <div class="logo">
+            <a href="index.html" class="nav-logo">
+                <img src="./img/logo1.png" alt="All in one Recipes">
+            </a> 
+        </div>
+         <div class="nav-links">
+         <a href="index.html" class="nav-link">Home</a>
+         <a href="recipes.html" class="nav-link">Recipes</a>
+         <a href="#"class="nav-link">Forums</a>
+         <a href="#"class="nav-link">Login</a> 
+         <a  href="contact.html" class="ctn">Contact</a>
+         </div>
+        <img src="./img/hamburger-menu-icon-free-5.jpg" alt="" class="menu-btn">
+    </nav>     
+ <!-- end of Nav -->
+
+ <!-- Start of Header -->
+    <header class="content-header">
+        <div class="hero-text">
+            <h1>A Taste of the Wordl!</h2>
+            <a href="" class="ctn">Suscribe!</a>
+        </div>
+    </header>
+ <!-- end of Header -->
+
+  <!--Start of section News -->
+  <section class="news">
+  <h1>News</h1>
+     <div class="container-news">
+           <div class="news-cards">
+           <div class="recipes-cards">
+            <a href="#" class="recipe">
+            <img src="./img/Recp1.jpg" alt="recipe1">
+            <h2>Recipe1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, esse.</p>
+            </a>
+            <a href="#" class="recipe">
+                <img src="./img/Recp2.jpg" alt="recipe2">
+                <h2>Recipe2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, esse.</p>
+                </a>
+                <a href="#" class="recipe">
+                    <img src="./img/Recp3.jpg" alt="recipe3">
+                    <h2>Recipe3</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, esse.</p>
+                    </a>
+                    
+        </div>
+    </div>
+</div>
+</section>
+ <!--end of section News -->
+
+ <!--Start of section Review -->
+<section class="Review">
+    
+</section>
+
+ <!--end of section Review -->
+
+<!--Start of footer -->
+ <footer>
+    <a href="http://facebook.com" target="_blank" class="fa fa-facebook" title="facebbok-link"></a>
+    <a href="https://twitter.com/" target="_blank" class="fa fa-twitter" title="twitter-link"></a>
+    <a href="https://www.instagram.com" target="_blank" class="fa fa-instagram" title="instagram-link"></a>
+    <br />
+    <p>© 2021 Copyright: www.allinonerecipes.com.au</p>
+</footer>
+ <!--end of footer -->
+
+ <!--javascrip-Animations -->
+   <script>
+       const menuBtn=document.querySelector('.menu-btn')
+
+       const navlinks=document.querySelector('.nav-links')
+     
+       
+       menuBtn.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu')
+    })
+
+   </script> 
+
+</body>
+
+</html>
