@@ -86,7 +86,7 @@ body, html {
 
 .content-header {
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     background-image: url('../img/cover.jpg');
     background-position: center;
     background-size: contain;
@@ -95,6 +95,8 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: solid #c9c5c556;
+    margin-bottom: 10px;
 }
 
 .hero-text {
@@ -114,9 +116,10 @@ body, html {
 .news {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     flex-direction: column;
     width: 100%;
+    border: solid #c9c5c556;
    /* background-color: whitesmoke;
     padding: 2px 2px;*/
 }
@@ -135,7 +138,7 @@ body, html {
     columns: 200px 3;
     margin: 1em auto;
     padding: 1em;
-    /* background-color: skyblue;*/
+   /* background-color: rgb(203, 232, 243);*/
 }
 
 
@@ -186,6 +189,8 @@ body, html {
     align-items: center;
     flex-direction: column;
     width: 100%;
+    border: solid #c9c5c556;
+    margin-top: 10px;
 }
 
 .Review h1 {
@@ -339,23 +344,7 @@ footer p {
         gap: 1rem;
     }
 
-    .recipes-cards img {
-        /*
-        margin-top: 10px;
-        */
-    }
-
-    .recipe img {
-        /*
-        height: 10rem;
-        width: 100%;
-        padding-top: 0%;
-        */
-    }
-
-    .hero-text {
-        /*margin-bottom: 229px;*/
-    }
+    
 
     footer {
         padding: 10px;
