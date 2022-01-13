@@ -354,15 +354,34 @@ footer p {
         columns: 200px 1;
     }
 
+    .wrap{
+        display: inline-block;
+       
+    }
+    .recipes-category {
+        width: 40% !important ;
+        margin-left: 10px;
+
+        
+    }
+    .main-recipes{
+        display: inline-block !important;
+        width: 100% !important;
+        align-content: center !important;
+    }
+    .main-recipes .recipesItems{
+        width: 100% !important;
+        margin-left: 20px !important;
+        margin-bottom: 40px !important;
+    }
+    .main-recipes .recipesItems img{
+        height: 17rem !important;
+    }
+
 }
 
 
 /*recipes page*/
-.recipes-container {
-    display: table;
-    width: 100%;
-    /*background-color: cadetblue;*/
-}
 
 .wrap {
     max-width: 1100px;
@@ -393,7 +412,11 @@ footer p {
 .recipes-filtres {
     display: flex;
 }
-
+.recipes-filtres a:hover{
+    background: whitesmoke;
+    color: #076940;
+    box-shadow: 2px 2px 5px #00000056;
+}
 .recipes-category {
   display: flex;
   flex-direction: column;  
