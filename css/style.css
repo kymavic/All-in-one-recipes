@@ -543,10 +543,16 @@ footer p {
     color: rgb(48, 12, 12);
 }
 
-.content-contact form {
+/*.content-contact form {
     width: 40%;
     padding-left: 30px;
     padding-bottom: 80px;
+}*/
+.content-contact form {
+    width: 47%;
+    padding-left: 43px;
+    padding-bottom: 51px;
+    padding-top: 125PX;
 }
 
 .content-contact .input-box {
