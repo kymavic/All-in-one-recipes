@@ -519,8 +519,10 @@ footer p {
 
 .container-contact .content-contact {
     display: flex;
+    align-items: end;
+    /*
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between;*/
     padding: 25px 20px;
 
 }
@@ -543,7 +545,8 @@ footer p {
 
 .content-contact form {
     width: 40%;
-    margin-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 80px;
 }
 
 .content-contact .input-box {
@@ -655,9 +658,6 @@ footer p {
     background: whitesmoke;
     color: #076940;
     box-shadow: 2px 2px 5px #00000056;
-    left: 18px;
-    top: 6px;
-    pointer-events: none;
 }
 
 .nav-link:hover {
